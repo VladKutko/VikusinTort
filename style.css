@@ -37,7 +37,7 @@ img {
 /* Photo Grid Styling */
 .photo-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 10px;
   justify-items: center;
   align-items: center;
