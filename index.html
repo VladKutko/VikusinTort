@@ -11,16 +11,18 @@
       <h1>Responsive Photo Gallery</h1>
     </header>
 
-    <section class="photo-grid">
-      <img src="images/photo1.png" alt="Photo 1" />
-      <img src="images/photo2.png" alt="Photo 2" />
-      <img src="images/photo3.png" alt="Photo 3" />
-      <img src="images/photo4.png" alt="Photo 4" />
-      <img src="images/photo5.png" alt="Photo 5" />
+    <!-- Photo container where images will be injected -->
+    <section class="photo-container">
+      <div class="photo-grid" id="photo-grid">
+        <!-- Images will be injected here by JavaScript -->
+      </div>
     </section>
 
     <footer>
       <p>&copy; 2024 Responsive Gallery</p>
     </footer>
+
+    <!-- JavaScript to dynamically load images -->
+    <script src="script.js"></script>
   </body>
 </html>
