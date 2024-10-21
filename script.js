@@ -1,6 +1,6 @@
 // Array to store image file paths (assumes images are in a folder called 'images')
 const imagePaths = [];
-const countImage = 33;
+const countImage = 26;
 for (let i = 1; i <= countImage; i++) {
   imagePaths.push(`images/${i}.jpg`); // Adjust filenames accordingly
 }
