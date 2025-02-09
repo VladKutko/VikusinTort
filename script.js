@@ -11,7 +11,7 @@ const photoGrid = document.getElementById("photo-grid");
 // Loop through the array and create img elements for each image
 imagePaths.forEach((path) => {
   const imgElement = document.createElement("img");
-  imgElement.src = path;
+  imgElement.src = `${path}?t=${Date.now()}`;  // Add timestamp to bypass cache
   imgElement.alt = `Photo ${path}`;
   photoGrid.appendChild(imgElement);
 });
